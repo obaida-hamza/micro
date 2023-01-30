@@ -1,15 +1,15 @@
 #include <MKL24Z4.h>
 #include <stdio.h>
-Writ_Output a(PTD0);
-Writ_Output b(PTD1);
-Writ_Output c(PTD2);
-Writ_Output d(PTD3);
-Writ_Output e(PTD4);
-Writ_Output f(PTD5);
-Writ_Output g(PTD6);
-Writ_output  dp(PTD7);
-Writ_input green_button(PTA7);
-Writ_input red_button(PTA1);
+Writ_Output a(PTD,0);
+Writ_Output b(PTD,1);
+Writ_Output c(PTD,2);
+Writ_Output d(PTD,3);
+Writ_Output e(PTD,4);
+Writ_Output f(PTD,5);
+Writ_Output g(PTD,6);
+Writ_Output  dp(PTD,7);
+Writ_input green_button(PTA,7);
+Writ_input red_button(PTA,1);
 
 int main()
 	{
