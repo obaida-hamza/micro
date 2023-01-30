@@ -10,8 +10,8 @@ Writ_Output e(PTD,4);
 Writ_Output f(PTD,5);
 Writ_Output g(PTD,6);
 Writ_Output  dp(PTD,7);
-Writ_input green_button(PTA,7);
-Writ_input red_button(PTA,1);
+Writ_Input green_button(PTA,7);
+Writ_Input red_button(PTA,1);
 
 int main()
 	{
