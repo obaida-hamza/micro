@@ -1,7 +1,7 @@
 #include <MKL24Z4.h>
 #include <stdio.h>
-#define HIGH = 1
-#define LOW = 0
+#define high = 1
+#define low = 0
 Writ_Output a(PTD,0);
 Writ_Output b(PTD,1);
 Writ_Output c(PTD,2);
